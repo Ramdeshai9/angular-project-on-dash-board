@@ -1,0 +1,21 @@
+
+<div class="div1">
+    <h1 id="des"> company employee</h1>
+    <table class="div2"> 
+        <tr>
+            <th>Id</th>
+            <th>Email</th>
+            <th>Fristname</th>
+            <th> Lastname</th>
+            <th> Photo</th>
+        </tr>
+        <tr *ngFor="let emp of employees">
+            <td>{{emp.id}}</td>
+            <td>{{emp.email}}</td>
+            <td>{{emp.first_name}}</td>
+            <td>{{emp.last_name}}</td>
+            <td><img src="{{emp.avatar}}" ></td>
+
+        </tr>
+    </table>
+</div>

@@ -1,0 +1,39 @@
+.rd1{
+  margin-left: 900px;  
+  margin-right: 10px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.rd2{
+  margin-left: 10px;  
+  margin-right: 10px;
+  height: 50px;
+  width: 50px;
+  border-radius: 80%;
+}
+.rd3{
+  width:100%;
+}
+.but{
+  border-radius: 50px;
+  background-color: rgb(53, 48, 48);
+  color:whitesmoke;
+}
+.mat{
+    background-color: black;
+    color:white;
+}
+
+  
+
+
+table{
+  border: 2px solid black;
+  width: 100%;
+
+}
+.div1{
+  width:100%;
+}
+
